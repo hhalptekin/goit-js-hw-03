@@ -1,6 +1,8 @@
 function slugify(title) {
+    
     let result = title.replace(/\s+/g, '-').toLowerCase();
     return result;
+
 }
 console.log(slugify("Arrays for begginers")); // "arrays-for-begginers"
 console.log(slugify("English for developer")); // "english-for-developer"
